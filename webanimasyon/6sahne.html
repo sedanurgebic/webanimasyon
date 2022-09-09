@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deneme</title>
+		<meta charset="UTF-8">
+<style type="text/css">
+			body {
+				background:url('sahne6.png');
+				background-size:1200px 600px;
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+				background-position:center;
+				margin:auto;
+			}
+			
+			
+			.lola{
+				margin-left:-120px;
+				margin-top:420px;
+				position:absolute;
+			}
+			
+			
+			.layla{
+				margin-left:725px;
+				margin-top:160px;
+				position:absolute;
+			}
+			
+			
+			.cadı{
+				margin-left:750px;
+				margin-top:160px;
+				position:absolute;
+				
+			}
+			
+			.yazı{
+				margin-left:560px;
+				margin-top:85px;
+				position:absolute;	
+				opacity:-1.10;
+			}
+			
+			
+			.yazı2{
+				margin-left:870px;
+				margin-top:75px;
+				position:absolute;	
+				opacity:-1.10;
+			}
+			
+			
+			.yazı3{
+				margin-left:120px;
+				margin-top:320px;
+				position:absolute;	
+				opacity:-1.10;
+			}
+			
+			.buton{
+				margin-left:1155px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+				
+			}
+			
+			.buton1{
+				margin-left:1100px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+			}
+		</style>
+	</head>	
+	<body>	
+		<img  class="lola" src="tinker.png" alt="lola1" height="110px" width="120px">	
+		<img  class="layla" src="layla2.png" alt="layla" height="80px" width="90px">	
+		<img  class="cadı" src="cadı.png" alt="cadı" height="120px" width="140px">	
+		<img  class="yazı" src="yazıı.png" alt="yazı" height="110px" width="170px">
+		<img  class="yazı3" src="yazıı1.png" alt="yazı" height="110px" width="170px">
+		<img  class="yazı2" src="yazıı2.png" alt="yazıı" height="130px" width="200px">
+
+		<a href="5sahne.html" target="_blank"><button class="buton1">Geri</button></td></a>
+		<a href="7sahne.html" target="_blank"><button class="buton">İleri</button></td></a>	
+	
+	</body>
+
+	<script src="anime.min.js"></script>
+<script>
+
+anime({
+	targets:'.lola',
+	translateX:300,
+	loop:false,
+	easing:'linear',
+	duration:4000
+});
+
+anime({
+	targets:'.yazı',
+	opacity:1.10,
+	loop:false,
+	duration:25000,
+	delay:3500
+
+});
+
+
+anime({
+	targets:'.yazı2',
+	opacity:1.10,
+	loop:false,
+	duration:10000,
+	delay:5000
+});
+
+anime({
+	targets:'.yazı3',
+	opacity:1.10,
+	loop:false,
+	duration:10000,
+	delay:7000
+});
+</script>
+		
+</html>

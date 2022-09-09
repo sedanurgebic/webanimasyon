@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deneme</title>
+		<meta charset="UTF-8">
+<style type="text/css">
+			body {
+				background:url('yeni1.png');
+				background-size:1200px 600px;
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+				background-position:center;
+				margin:auto;
+			}
+			
+			
+			.lola{
+				margin-left:105px;
+				margin-top:120px;
+				position:absolute;
+			}
+			
+			
+			
+			.cadı{
+				margin-left:225px;
+				margin-top:160px;
+				position:absolute;
+				
+			}
+			
+			.yarasa1{
+				margin-left:225px;
+				margin-top:160px;
+				position:absolute;
+				
+			}
+			
+
+			.yarasa2{
+				margin-left:905px;
+				margin-top:20px;
+				position:absolute;
+				
+			}
+			
+			
+			.yarasa3{
+				margin-left:655px;
+				margin-top:280px;
+				position:absolute;
+				
+			}
+			
+			
+			.yarasa4{
+				margin-left:505px;
+				margin-top:400px;
+				position:absolute;
+				
+			}
+			
+			
+			
+			.yarasa5{
+				margin-left:845px;
+				margin-top:400px;
+				position:absolute;
+				
+			}
+			
+			
+			.yazı{
+				margin-left:175px;
+				margin-top:590px;
+				position:absolute;
+				
+			}
+			
+			.buton{
+				margin-left:1155px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+				
+			}
+			
+			.buton1{
+				margin-left:1100px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+			}
+			
+		</style>
+	</head>	
+	<body>	
+		<img  class="lola" src="llola.png" alt="lola1" height="100px" width="110px">		
+		<img  class="cadı" src="cadıla.png" alt="cadı" height="120px" width="140px">	
+		<img  class="yarasa1" src="yarasa.png" alt="yarasa1" height="20px" width="30px">	
+		<img  class="yarasa2" src="yarasa.png" alt="yarasa2" height="20px" width="30px">	
+		<img  class="yarasa3" src="yarasa.png" alt="yarasa3" height="20px" width="30px">	
+		<img  class="yarasa4" src="yarasa.png" alt="yarasa4" height="20px" width="30px">	
+		<img  class="yarasa5" src="yarasa.png" alt="yarasa5" height="20px" width="30px">	
+		<img  class="yazı" src="yyazı.png" alt="yazı" height="45px" width="1000px">	
+	
+		<a href="7sahne.html" target="_blank"><button class="buton1">Geri</button></td></a>
+		<a href="9sahne.html" target="_blank"><button class="buton">İleri</button></td></a>	
+		
+	</body>
+
+	<script src="anime.min.js"></script>
+<script>
+
+
+anime({
+	targets:'.cadı',
+	translateX:800,
+	loop:false,
+	scale:1.2,
+	duration:6000
+});
+
+
+
+anime({
+	targets:'.cadı',
+	translateX:900,
+	loop:false,
+	easing:'linear',
+	scale:0,
+	duration:6000
+});
+
+
+
+anime({
+	targets:'.lola',
+	translateX:1000,
+	loop:false,
+	scale:1.2,
+	duration:7000,
+	delay:1000
+});
+
+
+
+anime({
+	targets:'.lola',
+	translateX:1100,
+	loop:false,
+	easing:'linear',
+	scale:0,
+	duration:7000,
+	delay:1000
+});
+
+
+anime({
+	targets:'.yarasa1',
+	translateX:500,
+	translateY:55,
+	loop:false,
+	easing:'linear',
+	duration:12000,
+});
+
+
+anime({
+	targets:'.yarasa2',
+	translateX:-500,
+	translateY:55,
+	loop:false,
+	easing:'linear',
+	duration:12000,
+});
+
+
+anime({
+	targets:'.yarasa3',
+	translateX:500,
+	translateY:-105,
+	loop:false,
+	easing:'linear',
+	duration:12000,
+});
+
+
+
+anime({
+	targets:'.yarasa4',
+	translateX:500,
+	translateY:-105,
+	loop:false,
+	easing:'linear',
+	duration:12000,
+});
+
+
+anime({
+	targets:'.yarasa5',
+	translateX:-500,
+	translateY:-205,
+	loop:false,
+	easing:'linear',
+	duration:12000,
+});
+
+
+
+anime({
+	targets:'.yazı',
+	translateY:-80,
+	loop:false,
+	opacity:-1.10,
+	duration:50000,
+});
+</script>
+		
+</html>

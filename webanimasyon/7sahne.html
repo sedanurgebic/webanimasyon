@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deneme</title>
+		<meta charset="UTF-8">
+<style type="text/css">
+			body {
+				background:url('sahne6.png');
+				background-size:1200px 600px;
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+				background-position:center;
+				margin:auto;
+			}
+			
+			
+			.lola{
+				margin-left:160px;
+				margin-top:420px;
+				position:absolute;
+			}
+			
+			
+			.layla{
+				margin-left:725px;
+				margin-top:160px;
+				position:absolute;
+			}
+			
+			
+			.cadı{
+				margin-left:750px;
+				margin-top:160px;
+				position:absolute;
+				
+			}
+			
+			.buton{
+				margin-left:1155px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+				
+			}
+			
+			.buton1{
+				margin-left:1100px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+			}
+		</style>
+	</head>	
+	<body>	
+		<img  class="lola" src="tinker.png" alt="lola1" height="110px" width="120px">	
+		<img  class="layla" src="layla2.png" alt="layla" height="80px" width="90px">	
+		<img  class="cadı" src="cadı.png" alt="cadı" height="120px" width="140px">	
+
+		<a href="6sahne.html" target="_blank"><button class="buton1">Geri</button></td></a>
+		<a href="8sahne.html" target="_blank"><button class="buton">İleri</button></td></a>		
+	
+	</body>
+
+	<script src="anime.min.js"></script>
+<script>
+
+
+anime({
+	targets:'.layla',
+	translateX:600,
+	translateY:-50,
+	loop:false,
+	duration:90000
+});
+
+anime({
+	targets:'.cadı',
+	translateX:600,
+	translateY:-50,
+	loop:false,
+	duration:90000
+});
+
+
+anime({
+	targets:'.lola',
+	translateX:1050,
+	translateY:-200,
+	loop:false,
+	duration:95000,
+	delay:1000
+});
+
+
+</script>
+		
+</html>

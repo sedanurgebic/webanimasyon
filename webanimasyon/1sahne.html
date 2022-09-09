@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deneme</title>
+		<meta charset="UTF-8">
+<style type="text/css">
+			body {
+				background:url('1001.png');
+				background-size:1200px 600px;
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+				background-position:center;
+				margin:auto;
+			}
+			
+				
+	.lola{
+		margin:-520 auto;
+		margin-bottom:45px;
+		margin-left:1200px;
+		margin-top:-100px;
+        height:110px;
+		width:100%;		
+		max-width:120px;
+		position:relative;
+		
+	}
+	
+	.layla{
+		margin:-1270 auto;
+		margin-bottom:45px;
+		margin-top:-250px;
+		width:100%;
+		position:relative;
+		height:110px;
+		max-width:150px;
+	
+	}
+	
+	.yaprak{
+		margin-top:10px;
+		margin-left:100px;
+		position:absolute;
+	
+	
+	}
+	
+	.peri3{
+		margin-left:880px;
+		margin-top:70px;
+		margin:-100 auto;
+		margin-bottom:-140px;
+		height:200px;
+		max-width:250px;
+		width:100%;
+		position:absolute;
+	}
+	
+	
+	.peri2{
+		margin-left:360px;
+		margin-top:140px;
+		margin:345 auto;
+		height:100px;
+		max-width:120px;
+		width:100%;
+		margin-bottom:145px;
+		position:absolute;
+	}
+		
+	
+	.peri1{
+	    margin-top:200px;
+		margin-left:160px;
+		margin:-400 auto;
+		margin-bottom:90px;
+		position:relative;
+		height:150px;
+		width:100%;
+		max-width:120px;
+		
+	}
+	
+	
+	.parıltı{
+		margin-top:450px;
+		margin-bottom:-100px;
+		margin-left:830px;
+		margin:1150 auto;
+		position:absolute;
+		height:170px;
+		max-width:180px;
+		width:100%;
+	
+	}
+	
+	.yazı{
+		margin-top:60px;
+		margin-left:10px;
+		position:absolute;
+		height:70px;
+		width:1100px;
+
+
+	}
+
+	.buton{
+		margin-left:1070px;
+		margin-top:90px;
+		position:absolute;
+		width:50px;
+		height:30px;
+				
+	}
+			
+		</style>
+	</head>	
+	<body>
+		<img  class="yaprak" src="yaprak.png" alt="yaprak" height="150" width="150">
+		<img  class="peri3" src="peri3.png" alt="parıltı1">
+		<img  class="peri2" src="peri2.png" alt="parıltı2">
+		<img  class="peri1" src="peri1.png" alt="parıltı3">
+		<img  class="parıltı" src="par1.png" alt="parıltı6">
+		<img  class="lola" src="lolaa.png" alt="parıltı4">
+		<img  class="layla" src="laylaa.png" alt="parıltı5">
+		<img  class="yazı" src="yazı111.png" alt="yazı">
+		
+		<a href="2sahne.html" target="_blank"><button class="buton">İleri</button></td></a>
+	</body>
+
+	<script src="anime.min.js"></script>
+<script>
+anime({
+	targets:'.lola',
+	translateX:-440,
+	translateY:-250,
+	loop:true,
+	duration:60000
+});
+
+anime({
+	targets:'.layla',
+	translateY:-250,
+	translateX:440,
+	loop:true,
+	duration:60000
+});
+
+anime({
+	targets:'.peri2',
+	translateY:-55,
+	translateX:-65,
+	scale:1.0,
+	loop:true,
+	duration:40000
+});
+
+
+anime({
+	targets:'.peri3',
+	translateY:-55,
+	translateX:55,
+	scale:1.0,
+	loop:true,
+	duration:40000
+});
+
+
+anime({
+	targets:'.peri1',
+	translateY:35,
+	translateX:35,
+	scale:1.0,
+	loop:true,
+	duration:40000
+});
+
+
+anime({
+	targets:'.yaprak',
+	translateY:440,
+	scale:1.0,
+	loop:true,
+	duration:80000
+});
+
+
+anime({
+	targets:'.yazı',
+	translateY:-15,
+	duration:5000,
+});
+
+
+anime({
+	targets:'.parıltı',
+	translateY:-15,
+	duration:8000,
+});
+
+
+anime({
+	targets:'.yazı',
+	translateY:-100,
+	duration:95000,
+	opacity:-1.10,
+});
+</script>
+		
+</html>

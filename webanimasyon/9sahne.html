@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deneme</title>
+		<meta charset="UTF-8">
+<style type="text/css">
+			body {
+				background:url('9sahne.png');
+				background-size:1100px 900px;
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+				background-position:center;
+				margin:auto;
+			}
+			
+			
+			.lola{
+				margin-left:160px;
+				margin-top:100px;
+				position:absolute;
+			}
+			
+			
+			.layla{
+				margin-left:1100px;
+				margin-top:80px;
+				position:absolute;
+				z-index:-1;
+			}
+			
+			
+			.cadı{
+				margin-left:680px;
+				margin-top:160px;
+				position:absolute;
+				
+			}
+			
+			.kafes{
+				margin-left:1100px;
+				margin-top:-38px;
+				position:absolute;
+			}
+			
+			.kabarcık1{
+				margin-left:933px;
+				margin-top:-5px;
+				position:absolute;
+				opacity:-1.10;
+			}
+			
+			
+			.kabarcık2{
+				margin-left:720px;
+				margin-top:40px;
+				position:absolute;
+				opacity:-1.10;
+			}
+			
+			
+			.kabarcık3{
+				margin-left:260px;
+				margin-top:0px;
+				position:absolute;
+				opacity:-1.10;
+			}	
+			
+			
+			.buton{
+				margin-left:1155px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+				
+			}
+			
+			.buton1{
+				margin-left:1100px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+			}
+			
+			.sandalye{
+				margin-left:1000px;
+				margin-top:430px;
+				position:absolute;
+			}
+			
+			.kedi{
+				margin-left:1010px;
+				margin-top:440px;
+				position:absolute;
+				
+				
+			}
+			
+			.örümcek{
+				margin-left:600px;
+				margin-top:550px;
+				position:absolute;
+				
+				
+			}
+			
+			
+			.örümcek2{
+				margin-left:200px;
+				margin-top:520px;
+				position:absolute;
+				
+				
+			}
+		</style>
+	</head>	
+	<body>	
+		<img  class="lola" src="llola.png" alt="lola1" height="120px" width="120px">	
+		<img  class="layla" src="laylal.png" alt="layla" height="80px" width="90px">	
+		<img  class="cadı" src="terscadı.png" alt="cadı" height="120px" width="140px">	
+		<img  class="kafes" src="kafes.png" alt="kafes" height="250px" width="100px">	
+		<img  class="kabarcık1" src="kkabarcık.png" alt="kabarcık" height="110px" width="170px">	
+		<img  class="kabarcık2" src="kkabarcık1.png" alt="kabarcık1" height="170px" width="200px">	
+		<img  class="kabarcık3" src="kkabarcık3.png" alt="kabarcık1" height="180px" width="200px">	
+		<img  class="sandalye" src="sandalye.png" alt="yazı" height="150px" width="100px">	
+		<img  class="kedi" src="kedi.gif" alt="yazı" height="90px" width="50px">	
+		<img  class="örümcek" src="örümcek.gif" alt="yazı" height="25px" width="60px">	
+		<img  class="örümcek2" src="örümcek2.gif" alt="yazı" height="25px" width="50px">
+
+		<a href="8sahne.html" target="_blank"><button class="buton1">Geri</button></td></a>
+		<a href="10sahne.html" target="_blank"><button class="buton">İleri</button></td></a>	
+	
+	</body>
+
+	<script src="anime.min.js"></script>
+<script>
+
+
+anime({
+	targets:'.kabarcık1',
+	translateX:5,
+	loop:false,
+	opacity:1.10,
+	duration:9000
+});
+
+anime({
+	targets:'.kabarcık2',
+	translateX:5,
+	loop:false,
+	opacity:1.10,
+	duration:9000,
+	delay:2000
+});
+
+
+anime({
+	targets:'.kabarcık3',
+	translateX:5,
+	loop:false,
+	opacity:1.10,
+	duration:9000,
+	delay:4000
+});
+
+anime({
+	targets:'.örümcek',
+	translateX:500,
+	loop:false,
+	duration:15000,
+	easing:'linear',
+});
+
+
+anime({
+	targets:'.örümcek2',
+	translateX:300,
+	loop:false,
+	duration:19000,
+	easing:'linear',
+});
+</script>
+		
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deneme</title>
+		<meta charset="UTF-8">
+<style type="text/css">
+			body {
+				background:url('9sahne.png');
+				background-size:1100px 900px;
+				background-attachment:fixed;
+				background-repeat: no-repeat;
+				background-position:center;
+				margin:auto;
+			}
+			
+			
+			.lola{
+				margin-left:160px;
+				margin-top:100px;
+				position:absolute;
+			}
+			
+			
+			.layla{
+				margin-left:1100px;
+				margin-top:80px;
+				position:absolute;
+				z-index:-1;
+			}
+			
+			
+			.cadı{
+				margin-left:750px;
+				margin-top:160px;
+				position:absolute;
+				
+			}
+			
+			.kafes{
+				margin-left:1100px;
+				margin-top:-38px;
+				position:absolute;
+			}
+			
+			.büyü{
+				margin-left:480px;
+				margin-top:120px;
+				position:absolute;
+				opacity:-1.10;
+			}
+			
+			
+			.büyü1{
+				margin-left:695px;
+				margin-top:195px;
+				position:absolute;
+				opacity:-1.10;
+			}
+			
+			.yazı{
+				margin-left:145px;
+				margin-top:595px;
+				position:absolute;
+			}
+			
+			
+			.buton{
+				margin-left:1155px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+				
+			}
+			
+			.buton1{
+				margin-left:1100px;
+				margin-top:590px;
+				position:absolute;
+				width:50px;
+				height:30px;
+			}
+			
+			
+			.sandalye{
+				margin-left:1000px;
+				margin-top:430px;
+				position:absolute;
+			}
+			
+			.kedi{
+				margin-left:1010px;
+				margin-top:440px;
+				position:absolute;
+				
+				
+			}
+			
+			.örümcek{
+				margin-left:600px;
+				margin-top:550px;
+				position:absolute;
+				
+				
+			}
+			
+			
+			.örümcek2{
+				margin-left:200px;
+				margin-top:520px;
+				position:absolute;
+				
+				
+			}
+		</style>
+	</head>	
+	<body>	
+		<img  class="lola" src="büyü.png" alt="lola1" height="120px" width="120px">	
+		<img  class="layla" src="laylal.png" alt="layla" height="80px" width="90px">	
+		<img  class="cadı" src="terscadı.png" alt="cadı" height="120px" width="140px">	
+		<img  class="kafes" src="kafes.png" alt="kafes" height="250px" width="100px">	
+		<img  class="büyü" src="büyüü.png" alt="büyü" height="130px" width="300px">	
+		<img  class="büyü1" src="büyüüü.png" alt="büyü1" height="50px" width="50px">	
+		<img  class="yazı" src="yazzı.png" alt="yazı" height="50px" width="1100px">	
+		<img  class="sandalye" src="sandalye.png" alt="yazı" height="150px" width="100px">	
+		<img  class="kedi" src="kedi.gif" alt="yazı" height="90px" width="50px">	
+		<img  class="örümcek" src="örümcek.gif" alt="yazı" height="25px" width="60px">	
+		<img  class="örümcek2" src="örümcek2.gif" alt="yazı" height="25px" width="50px">	
+
+		<a href="9sahne.html" target="_blank"><button class="buton1">Geri</button></td></a>
+		<a href="11sahne.html" target="_blank"><button class="buton">İleri</button></td></a>
+
+	
+	</body>
+
+	<script src="anime.min.js"></script>
+<script>
+
+anime({
+	targets:'.büyü1',
+	translateX:-650,
+	loop:false,
+	opacity:1.10,
+	scale:1.2,
+	duration:3000,
+	
+});
+
+
+anime({
+	targets:'.büyü1',
+	translateX:-650,
+	loop:false,
+	scale:0,
+	easing:'linear',
+	duration:3000,
+	
+});
+
+
+anime({
+	targets:'.lola',
+	translateX:260,
+	translateY:-50,
+	loop:false,
+	easing:'linear',
+	delay:1500,
+});
+
+
+anime({
+	targets:'.büyü',
+	translateX:5,
+	loop:false,
+	opacity:1.10,
+	duration:9000,
+	delay:3000
+	
+});
+
+
+anime({
+	targets:'.layla',
+	translateX:-100,
+	loop:false,
+	duration:2000,
+	easing:'linear',
+	delay:3500
+	
+});
+
+
+anime({
+	targets:'.yazı',
+	translateY:-100,
+	loop:false,
+	duration:8000,
+	opacity:-1.10,
+	easing:'linear',
+	
+});
+
+
+anime({
+	targets:'.örümcek',
+	translateX:500,
+	loop:false,
+	duration:15000,
+	easing:'linear',
+});
+
+
+anime({
+	targets:'.örümcek2',
+	translateX:300,
+	loop:false,
+	duration:19000,
+	easing:'linear',
+});
+</script>
+		
+</html>
